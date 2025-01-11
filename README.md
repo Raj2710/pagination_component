@@ -1,8 +1,4 @@
-# React + Vite
+# Shop App - Vivriti Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Github Url: https://github.com/Raj2710/vivriti-task.git
+- Deployed URL: https://vivriti-task.netlify.app/
