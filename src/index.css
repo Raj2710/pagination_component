@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom_pagination ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .custom_pagination ul li button {
+    border-radius: 7px;
+    width: 34px;
+    height: 34px;
+    display: block;
+    background: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  .custom_pagination ul li.active button {
+    background: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+    color: #fff;
+  }
+  
+  .custom_pagination ul li:first-child button:hover,
+  .custom_pagination ul li:last-child button:hover {
+    background: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+    color: #fff;
+  }
+  
+  .custom_pagination ul li button:hover {
+    background: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+    color: #fff;
+  }
+
+.loader {
+    width: 60px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
